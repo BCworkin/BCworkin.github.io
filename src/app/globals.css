@@ -1,0 +1,151 @@
+/* ─────────────────────────────────────────────
+   Design tokens — Light editorial / White, Black & Gold
+───────────────────────────────────────────── */
+:root {
+  --ink:     #ffffff;
+  --ink2:    #fafaf8;
+  --ink3:    #f4f2ee;
+  --surface: #eeebe4;
+  --red:     #c9a84c;   /* red replaced with gold throughout */
+  --red2:    #e8c76a;
+  --gold:    #c9a84c;
+  --gold2:   #a8873a;
+  --cream:   #111111;   /* text is now dark */
+  --cream2:  #333333;
+  --muted:   #888880;
+  --border:  rgba(180, 150, 60, 0.18);
+  --border2: rgba(180, 150, 60, 0.35);
+
+  --font-serif:  "Playfair Display", Georgia, serif;
+  --font-cond:   "Barlow Condensed", sans-serif;
+  --font-body:   "Barlow", sans-serif;
+  --font-mono:   "DM Mono", monospace;
+}
+
+/* ─────────────────────────────────────────────
+   Reset
+───────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--ink);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+/* Light mode — ensure sections don't look washed out */
+::selection {
+  background: var(--gold);
+  color: #fff;
+}
+
+a, button { cursor: none; }
+img, svg { display: block; }
+
+/* ─────────────────────────────────────────────
+   Custom cursor
+───────────────────────────────────────────── */
+.cursor {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: var(--gold);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s, height 0.2s, background 0.2s;
+}
+
+.cursor.hover {
+  width: 18px;
+  height: 18px;
+  background: var(--gold2);
+}
+
+.cursor-ring {
+  position: fixed;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(201, 168, 76, 0.5);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s, border-color 0.3s;
+}
+
+.cursor-ring.hover {
+  width: 56px;
+  height: 56px;
+  border-color: var(--gold2);
+}
+
+/* ─────────────────────────────────────────────
+   Shared utilities
+───────────────────────────────────────────── */
+.section-eyebrow {
+  font-family: var(--font-cond);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.section-eyebrow::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: var(--gold);
+  flex-shrink: 0;
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  padding: 3px 9px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.75s ease, transform 0.75s ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ─────────────────────────────────────────────
+   Divider rule — classic editorial
+───────────────────────────────────────────── */
+.rule {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0;
+}
+
+.rule-gold {
+  border: none;
+  border-top: 2px solid var(--gold);
+  margin: 0;
+}
