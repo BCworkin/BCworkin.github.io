@@ -22,7 +22,7 @@ export default function Navbar() {
       </ul>
 
       <a href="mailto:bryanchiamjf01@gmail.com" className={styles.cta}>
-        Hire Me
+        Email Me!
       </a>
     </nav>
   );

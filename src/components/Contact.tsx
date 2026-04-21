@@ -35,12 +35,12 @@ export default function Contact() {
         <p className="section-eyebrow">Get in Touch</p>
 
         <h2 className={styles.heading}>
-          Open for <em>Business.</em>
+          Open for <em>Business.</em> 
         </h2>
 
         <p className={styles.sub}>
           Looking for full-time roles across full stack, data engineering, and
-          product.
+          product ownership.
         </p>
 
         <hr className={styles.rule} />
