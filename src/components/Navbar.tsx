@@ -10,8 +10,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       {/* Masthead logo */}
       <Link href="#hero" className={styles.logo}>
-        <span className={styles.logoMain}>BRYAN CHIAM</span>
-        <span className={styles.logoSub}>Portfolio · Est. 2025</span>
+        <span className={styles.logoMain}>BC.</span>
       </Link>
 
       <ul className={styles.links}>

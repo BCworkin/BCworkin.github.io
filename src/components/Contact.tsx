@@ -40,8 +40,7 @@ export default function Contact() {
 
         <p className={styles.sub}>
           Looking for full-time roles across full stack, data engineering, and
-          product. If you&apos;re building something worth talking about —
-          let&apos;s talk.
+          product.
         </p>
 
         <hr className={styles.rule} />
@@ -59,13 +58,6 @@ export default function Contact() {
               <span className={styles.linkValue}>{c.value} ↗</span>
             </a>
           ))}
-        </div>
-
-        <div className={styles.referees}>
-          <p className={styles.refTitle}>References available on request</p>
-          <p className={styles.refNames}>
-            Andrew Tokmakoff — Technical Lead, TERN &nbsp;·&nbsp; Ellie Parker — Lecturer, UniSA
-          </p>
         </div>
       </div>
     </section>

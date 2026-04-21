@@ -5,7 +5,6 @@ export default function Hero() {
     <section id="hero" className={styles.hero}>
       {/* Top dateline bar */}
       <div className={styles.dateline}>
-        <span>Vol. I · No. 1</span>
         <span>Adelaide, South Australia</span>
         <span>Est. 2022</span>
       </div>
@@ -15,7 +14,6 @@ export default function Hero() {
       {/* Masthead */}
       <div className={styles.masthead}>
         <div className={styles.mastheadLeft}>
-          <span className={styles.mastheadLabel}>Engineer of the Year</span>
         </div>
         <h1 className={styles.title}>
           BRYAN<br />
@@ -33,9 +31,9 @@ export default function Hero() {
       <div className={styles.body}>
         {/* Left column — cover story */}
         <div className={styles.coverStory}>
-          <p className={styles.coverKicker}>Cover Story</p>
+          <p className={styles.coverKicker}></p>
           <h2 className={styles.coverHeadline}>
-            The Engineer Who Ships End-to-End
+            Full Stack Engineer that Delivers
           </h2>
           <p className={styles.coverDeck}>
             From .NET WebAPIs to Databricks medallion pipelines — Bryan Chiam
@@ -67,7 +65,6 @@ export default function Hero() {
             { num: "3+",  label: "Years of Industry Experience" },
             { num: "4",   label: "Projects Shipped to Production" },
             { num: "10+", label: "Technologies in Active Use" },
-            { num: "AWS", label: "Solutions Architect — In Progress" },
           ].map(({ num, label }) => (
             <div key={num} className={styles.brief}>
               <span className={styles.briefNum}>{num}</span>
