@@ -26,7 +26,7 @@ export default function Skills() {
           Skills &amp; <em>Stack</em>
         </h2>
         <p className={styles.sub}>
-          A polyglot engineer comfortable across the full stack — from database schema to deployment pipeline.
+          Comfortable across the full stack from database schema to deployment pipeline.
         </p>
       </div>
 
