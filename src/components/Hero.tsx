@@ -36,9 +36,9 @@ export default function Hero() {
             Full Stack Engineer that Delivers
           </h2>
           <p className={styles.coverDeck}>
-            From .NET WebAPIs to Databricks medallion pipelines — Bryan Chiam
-            builds complete systems with a product mindset and zero excuses.
-            Full stack. Data engineering. Product thinking. All in one.
+            From .NET WebAPIs to Databricks medallion pipelines, I've 
+            built and delivered systems across different tech stacks which span
+            full stack and data engineering.
           </p>
           <div className={styles.coverCtas}>
             <a href="#projects" className={styles.btnPrimary}>
