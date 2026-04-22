@@ -27,6 +27,7 @@ export interface Project {
   tags: string[];
   filter: ProjectFilter;
   links: { label: string; href: string }[];
+  images: { src: string; alt: string }[];
 }
 
 export interface Experience {
@@ -71,17 +72,19 @@ export const projects: Project[] = [
     desc: "End-to-end ETL pipeline using medallion architecture (bronze/silver/gold) on Databricks Community Edition. Power BI dashboards visualising SA school attendance and enrolment trends from 2009–2024.",
     tags: ["Python", "PySpark", "Databricks", "Delta Lake", "Power BI", "Star Schema"],
     filter: "data",
-    links: [{ label: "GitHub ↗", href: "https://github.com/BCworkin" }],
+    links: [{ label: "GitHub ↗", href: "https://github.com/BCworkin/SA-Department-for-Education-Data-Project" }],
+    images: [],
   },
   {
     num: "02",
     title: "LifeLedger — Gamify Your Life",
     status: "ongoing",
     statusLabel: "Ongoing",
-    desc: "A gamification app turning daily goals into RPG-style progression. Spring Boot backend, React/Next.js frontend, PostgreSQL for persistent state — integrated with Claude AI.",
+    desc: "A gamification app turning daily goals into a simulation progression 'game'. Spring Boot backend, React frontend, PostgreSQL for persistent state — integrated with Claude AI.",
     tags: ["Java", "Spring Boot", "React", "Next.js", "PostgreSQL", "Claude AI"],
     filter: "fullstack",
-    links: [{ label: "GitHub ↗", href: "https://github.com/BCworkin" }],
+    links: [{ label: "GitHub ↗", href: "https://github.com/BCworkin/lifeTracker" }],
+    images: [],
   },
   {
     num: "03",
@@ -92,6 +95,7 @@ export const projects: Project[] = [
     tags: ["Python", "Vue.js", "PostgreSQL", "Docker", "REST API", "Figma"],
     filter: "fullstack",
     links: [],
+    images: [],
   },
   {
     num: "04",
@@ -101,7 +105,8 @@ export const projects: Project[] = [
     desc: "ASP.NET Core dashboard for SAPOL mobile traffic detection data. Razor Pages with Entity Framework, WebAPI for graph data, SQL Server with LINQ — tested via SwaggerUI.",
     tags: ["ASP.NET Core", "C#", "Razor Pages", "Entity Framework", "SQL Server", "LINQ"],
     filter: "dotnet",
-    links: [{ label: "GitHub ↗", href: "https://github.com/BCworkin" }],
+    links: [{ label: "GitHub ↗", href: "https://github.com/BCworkin/SAPOL-Traffic-Expiations-.NET" }],
+    images: []
   },
 ];
 
@@ -138,6 +143,7 @@ export const experiences: Experience[] = [
     bullets: [
       "Software engineering, databases, algorithms, and systems architecture.",
       "Hands-on academic projects across Oracle SQL, .NET, and full-stack web development.",
+      "Taught SOLID principles for System Design, CRUD principles for Data."
     ],
   },
 ];
