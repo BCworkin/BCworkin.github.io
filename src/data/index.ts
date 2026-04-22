@@ -67,8 +67,8 @@ export const projects: Project[] = [
   {
     num: "01",
     title: "SA Schools Analytics Pipeline",
-    status: "complete",
-    statusLabel: "Complete",
+    status: "ongoing",
+    statusLabel: "Ongoing",
     desc: "End-to-end ETL pipeline using medallion architecture (bronze/silver/gold) on Databricks Community Edition. Power BI dashboards visualising SA school attendance and enrolment trends from 2009–2024.",
     tags: ["Python", "PySpark", "Databricks", "Delta Lake", "Power BI", "Star Schema"],
     filter: "data",
