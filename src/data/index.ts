@@ -67,10 +67,10 @@ export const projects: Project[] = [
   {
     num: "01",
     title: "SA Schools Analytics Pipeline",
-    status: "ongoing",
-    statusLabel: "Ongoing",
+    status: "complete",
+    statusLabel: "Complete",
     desc: "End-to-end ETL pipeline using medallion architecture (bronze/silver/gold) on Databricks Community Edition. Power BI dashboards visualising SA school attendance and enrolment trends from 2009–2024.",
-    tags: ["Python", "PySpark", "Databricks", "Delta Lake", "Power BI", "Star Schema"],
+    tags: ["Python", "PySpark", "Databricks", "Delta Lake", "Power BI", "Star Schema", "Excel"],
     filter: "data",
     links: [{ label: "GitHub ↗", href: "https://github.com/BCworkin/SA-Department-for-Education-Data-Project" }],
     images: [],
