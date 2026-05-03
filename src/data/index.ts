@@ -40,27 +40,27 @@ export interface Experience {
 }
 
 // ─── Skills ──────────────────────────────────────────────────
-// export const skills: Skill[] = [
-//   { name: "Python",       icon: "🐍", level: "Advanced",   pct: 88, group: "backend"  },
-//   { name: "C# / .NET",   icon: "⚙️",  level: "Advanced",   pct: 85, group: "backend"  },
-//   { name: "Java",         icon: "☕", level: "Advanced",   pct: 82, group: "backend"  },
-//   { name: "ASP.NET Core", icon: "🔷", level: "Advanced",   pct: 83, group: "backend"  },
-//   { name: "Spring Boot",  icon: "🍃", level: "Proficient", pct: 75, group: "backend"  },
-//   { name: "REST APIs",    icon: "🔌", level: "Advanced",   pct: 87, group: "backend"  },
-//   { name: "React.js",     icon: "⚛️",  level: "Proficient", pct: 70, group: "frontend" },
-//   { name: "Vue.js",       icon: "💚", level: "Proficient", pct: 72, group: "frontend" },
-//   { name: "PySpark",      icon: "⚡", level: "Proficient", pct: 74, group: "data"     },
-//   { name: "Databricks",   icon: "🧱", level: "Proficient", pct: 71, group: "data"     },
-//   { name: "Power BI",     icon: "📊", level: "Proficient", pct: 68, group: "data"     },
-//   { name: "Delta Lake",   icon: "🏔️", level: "Familiar",   pct: 65, group: "data"     },
-//   { name: "Pandas",       icon: "🐼", level: "Advanced",   pct: 82, group: "data"     },
-//   { name: "Docker",       icon: "🐳", level: "Proficient", pct: 73, group: "devops"   },
-//   { name: "GitLab CI/CD", icon: "🔄", level: "Proficient", pct: 72, group: "devops"   },
-//   { name: "Jira",         icon: "📋", level: "Advanced",   pct: 80, group: "devops"   },
-//   { name: "PostgreSQL",   icon: "🐘", level: "Advanced",   pct: 84, group: "db"       },
-//   { name: "SQL Server",   icon: "🗄️",  level: "Proficient", pct: 75, group: "db"       },
-//   { name: "Oracle DB",    icon: "🔴", level: "Familiar",   pct: 62, group: "db"       },
-// ];
+export const skills: Skill[] = [
+  { name: "Python",       icon: "🐍", level: "Advanced",   pct: 88, group: "backend"  },
+  { name: "C# / .NET",   icon: "⚙️",  level: "Advanced",   pct: 85, group: "backend"  },
+  { name: "Java",         icon: "☕", level: "Advanced",   pct: 82, group: "backend"  },
+  { name: "ASP.NET Core", icon: "🔷", level: "Advanced",   pct: 83, group: "backend"  },
+  { name: "Spring Boot",  icon: "🍃", level: "Proficient", pct: 75, group: "backend"  },
+  { name: "REST APIs",    icon: "🔌", level: "Advanced",   pct: 87, group: "backend"  },
+  { name: "React.js",     icon: "⚛️",  level: "Proficient", pct: 70, group: "frontend" },
+  { name: "Vue.js",       icon: "💚", level: "Proficient", pct: 72, group: "frontend" },
+  { name: "PySpark",      icon: "⚡", level: "Proficient", pct: 74, group: "data"     },
+  { name: "Databricks",   icon: "🧱", level: "Proficient", pct: 71, group: "data"     },
+  { name: "Power BI",     icon: "📊", level: "Proficient", pct: 68, group: "data"     },
+  { name: "Delta Lake",   icon: "🏔️", level: "Familiar",   pct: 65, group: "data"     },
+  { name: "Pandas",       icon: "🐼", level: "Advanced",   pct: 82, group: "data"     },
+  { name: "Docker",       icon: "🐳", level: "Proficient", pct: 73, group: "devops"   },
+  { name: "GitLab CI/CD", icon: "🔄", level: "Proficient", pct: 72, group: "devops"   },
+  { name: "Jira",         icon: "📋", level: "Advanced",   pct: 80, group: "devops"   },
+  { name: "PostgreSQL",   icon: "🐘", level: "Advanced",   pct: 84, group: "db"       },
+  { name: "SQL Server",   icon: "🗄️",  level: "Proficient", pct: 75, group: "db"       },
+  { name: "Oracle DB",    icon: "🔴", level: "Familiar",   pct: 62, group: "db"       },
+];
 
 // ─── Projects ────────────────────────────────────────────────
 export const projects: Project[] = [
