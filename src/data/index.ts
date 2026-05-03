@@ -72,7 +72,7 @@ export const projects: Project[] = [
     desc: "Used Appian Community Edition to set up components to mimic PlanSA's system for appealing for a development application. Used Confluence to keep track of project documentation, and Bitbucket for CI/CD of project artefacts.",
     tags: ["Appian", "Confluence", "Bitbucket"],
     filter: "fullstack",
-    links: [{ label: "Bitbucket ↗", href: "https://bitbucket.org/development-application-tracker/development-application-tracker/src/main/" }, { label: "Appian Link", href: "https://us.appian.community/suite/design/app/Zhen_uhbSXCQFXE6bMBCVw/objects" }],
+    links: [{ label: "Bitbucket ↗", href: "https://bitbucket.org/development-application-tracker/development-application-tracker/src/main/" }, { label: "  Appian Site ↗", href: "https://us.appian.community/suite/design/app/Zhen_uhbSXCQFXE6bMBCVw/objects" }],
     images: [],
   },
   {
