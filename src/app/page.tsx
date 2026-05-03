@@ -21,7 +21,7 @@ export default function Home() {
       <main>
         <Hero />
         {/* <Ticker /> */}
-        {/* <Skills /> */}
+        <Skills />
         <Projects />
         <Experience />
         <Contact />
