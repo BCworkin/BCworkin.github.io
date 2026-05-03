@@ -64,8 +64,19 @@ export const skills: Skill[] = [
 
 // ─── Projects ────────────────────────────────────────────────
 export const projects: Project[] = [
-  {
+    {
     num: "01",
+    title: "Development Application Tracker on Appian",
+    status: "complete",
+    statusLabel: "Complete",
+    desc: "Used Appian Community Edition to set up components to mimic PlanSA's system for appealing for a development application. Used Confluence to keep track of project documentation, and Bitbucket for CI/CD of project artefacts.",
+    tags: ["Appian", "Confluence", "Bitbucket"],
+    filter: "fullstack",
+    links: [{ label: "Bitbucket ↗", href: "https://bitbucket.org/development-application-tracker/development-application-tracker/src/main/" }, { label: "Appian Link", href: "https://us.appian.community/suite/design/app/Zhen_uhbSXCQFXE6bMBCVw/objects" }],
+    images: [],
+  },
+  {
+    num: "02",
     title: "SA Schools Analytics Pipeline",
     status: "complete",
     statusLabel: "Complete",
@@ -76,7 +87,7 @@ export const projects: Project[] = [
     images: [],
   },
   {
-    num: "02",
+    num: "03",
     title: "LifeLedger — Gamify Your Life",
     status: "ongoing",
     statusLabel: "Ongoing",
@@ -87,7 +98,7 @@ export const projects: Project[] = [
     images: [],
   },
   {
-    num: "03",
+    num: "04",
     title: "TERN Analytics Dashboard",
     status: "complete",
     statusLabel: "Complete",
@@ -98,7 +109,7 @@ export const projects: Project[] = [
     images: [],
   },
   {
-    num: "04",
+    num: "05",
     title: "SAPOL Traffic Expiations Dashboard",
     status: "academic",
     statusLabel: "Academic",
