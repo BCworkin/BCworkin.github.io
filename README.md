@@ -1,6 +1,6 @@
 # Bryan Chiam — Portfolio
 
-Personal portfolio built with **Next.js 14**, **TypeScript**, and **CSS Modules**.
+Personal portfolio built with **Next.js 14**, **TypeScript**, and now **Tailwind CSS** (was actually traditional CSS).
 To learn on the go, I've used Claude alongside Next.js to develop my personal portfolio to 
 try and understand what I know and what I don't. This also gives me a chance to understand Github Actions workflow.
 
