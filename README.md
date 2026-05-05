@@ -10,7 +10,7 @@ try and understand what I know and what I don't. This also gives me a chance to 
 
 - **Framework** — Next.js 14 (App Router, static export)
 - **Language** — TypeScript
-- **Styling** — CSS Modules + Google Fonts
+- **Styling** — Tailwind CSS
 - **Deploy** — GitHub Pages (via `next build` → `out/`)
 
 ---
@@ -136,34 +136,3 @@ In repo Settings → Pages, set source to **gh-pages** branch.
 
 ---
 
-## Custom Domain
-
-1. Buy a domain (Namecheap / Cloudflare Registrar recommended)
-2. In repo Settings → Pages → Custom domain, enter your domain
-3. Add these DNS records at your registrar:
-
-```
-A     @    185.199.108.153
-A     @    185.199.109.153
-A     @    185.199.110.153
-A     @    185.199.111.153
-CNAME www  BCworkin.github.io
-```
-
-4. Enable "Enforce HTTPS" once DNS propagates (~24h)
-
----
-
-## Design Tokens
-
-All colours and fonts are in `src/app/globals.css` under `:root`.
-Change `--red`, `--gold`, `--cream`, `--ink` to retheme the entire site.
-
-```css
-:root {
-  --ink:   #0d0d0d;   /* main background    */
-  --red:   #cc1f1f;   /* primary accent     */
-  --gold:  #c9a84c;   /* secondary accent   */
-  --cream: #f0e8d8;   /* primary text       */
-}
-```
